@@ -16,7 +16,7 @@
 	.navbar-toggler .navbar-toggler-icon {
 
 	display: block !important;
-	background:url(../img/menu.png) 0 0 no-repeat;
+	
 	}
 
 	.navbar-toggler:focus {
@@ -474,13 +474,14 @@
 	}
 
 	.contact-informations h2{
-	font-size:34px;
+	font-size:16px;
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
 	color: #fff;
 	font-weight: 500;
 	text-shadow: none;
 	letter-spacing: 1px;
+	margin-bottom: 4px;
 	}
 
 
@@ -495,12 +496,13 @@
 
 
 	.contact-informations h1{
-		font-size:68px;
+		font-size:45px;
 		font-family: 'Roboto', sans-serif;
 		text-align: left;
 		color: #fff;
 		font-weight: 900;
 		text-shadow: none;
+		text-transform: uppercase;
 		
 	
 	}
@@ -517,22 +519,32 @@
 	
 	}
 
-		.top-list{
-		width: 100%;
-		display: block;
-		float: left;
-		margin-top:50px;
-		padding-left: 0;	
-		}
+	.top-list{
+	width: 100%;
+	display: block;
+	float: left;
+	margin-top:50px;
+	padding-left: 0;	
+	}
+
+	.top-list h3{
+		font-size:20px;
+		font-family: 'Roboto', sans-serif;
+		text-align: left;
+		color: #fff;
+		font-weight: 500;
+		text-shadow: none;
+		margin-bottom: 30px;
+	}
 
 		.top-list li{
 		display: inline-block;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 		width: 100%;
 		}
 
 		.top-list li  h5{
-		font-size:18px;
+		font-size:16px;
 		font-family: 'Roboto', sans-serif;
 		text-align: left;
 		color: #fff;
@@ -543,11 +555,11 @@
 
 	
 		.top-list li h5 img{
-			display: block;
-			float: left;
-			margin-right: 25px;
-			width: 35px;
-			margin-top: -8px;
+		display: block;
+		float: left;
+		margin-right: 15px;
+		width: 28px;
+		margin-top: -5px;
 
 		}
 
@@ -820,6 +832,8 @@
 	.phone-numbers li{
 	display: inline-block;
 	float: left;
+	width: 20%;
+	padding-left: 0;
 
 	}
 
@@ -1554,16 +1568,13 @@
 
 	@media only screen and (max-width: 1400px){
 
-		.main-navigation{
-			background-color: #ff0040;
-		}
 
 		.contact-informations h1 {
-			font-size: 58px;
+			font-size: 37px;
 		}
 
 		.contact-informations h2{
-			font-size: 30px;
+			font-size: 15px;
 		}
 
 		.contact-informations h2 span{
@@ -1580,25 +1591,43 @@
 	/* Responsive Design Changes fixes CSS Tablet  */
 
     @media (max-width: 1200px) {
-		
+	
 
-		.main-navigation{
-			background-color: #04adf0;
+		.contact-form{
+			width: 100%;
 		}
 
-
 		.contact-informations h1 {
-			font-size: 42px;
+			font-size: 30px;
+		}
+
+		.contact-form .button-submit {
+			font-size: 18px;
+		}
+
+		.top-list li h5{
+			font-size: 14px;
+		}
+
+		.contact-form .form-title {
+			font-size: 18px;
 		}
 
 		.contact-informations h2{
-			font-size: 20px;
+			font-size: 14px;
 		}
 
 		.contact-informations h2 span{
 			font-size: 20px;
 		}
 
+		.phone-numbers li a{
+			font-size: 14px;
+		}
+
+		.phone-numbers li a img{
+			margin-right: 6px;
+		}
 
 	
 		
@@ -1610,9 +1639,29 @@
 
     @media (max-width: 991px) {
 
-		
-		.main-navigation{
-			background-color: #3d910d;
+		.phone-numbers{
+			padding-left: 0;
+		}
+
+		.phone-numbers li a {
+			font-size: 12px;
+		}
+
+		.phone-numbers li span {
+			padding-left: 40px;
+		}
+
+		.phone-numbers li a img {
+			display: block;
+			float: left;
+			margin-right: 5px;
+			margin-top: -5px;
+			width: 30px;
+			height: 30px;
+		}
+
+		.link-footer a {
+			font-size: 11px;
 		}
 
 		.contact-informations{
@@ -1639,10 +1688,15 @@
 
     @media (max-width: 767.98px) {
 
-		
-			
-		.main-navigation{
-			background-color: #e614e6;
+	
+
+
+		.phone-numbers li {
+			display: inline-block;
+			float: left;
+			width: 32%;
+			padding-left: 0;
+			margin-bottom: 15px;
 		}
 
 		.steps {
@@ -1694,9 +1748,7 @@
 	@media (max-width: 575.98px) { 
 		
 				
-		.main-navigation{
-			background-color: #080808;
-		}
+		
 
 
 		#file-a-complaint{
@@ -1781,7 +1833,7 @@
 		.phone-numbers li{
 			display: block;
 			float: left;
-			width: 100%;
+			width: 46%;
 			margin-bottom: 10px;
 		}
 
@@ -1838,9 +1890,9 @@
 		}
 
 		.contact-informations h2 {
-			font-size: 17px;
+			font-size: 11px;
 			color: #fff;
-			margin-top: 80px;
+			
 		}
 
         .contact-form{
