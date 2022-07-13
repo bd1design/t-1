@@ -474,7 +474,7 @@
 	}
 
 	.contact-informations h2{
-	font-size:16px;
+	font-size:31px;
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
 	color: #fff;
@@ -486,7 +486,7 @@
 
 
 	.contact-informations h2 span{
-		font-size:34px;
+		font-size:31px;
 		font-family: 'Roboto', sans-serif;
 		text-align: left;
 		color: #F55340;
@@ -496,7 +496,7 @@
 
 
 	.contact-informations h1{
-		font-size:45px;
+		font-size:58px;
 		font-family: 'Roboto', sans-serif;
 		text-align: left;
 		color: #fff;
@@ -1890,7 +1890,7 @@
 		}
 
 		.contact-informations h2 {
-			font-size: 11px;
+			font-size: 16px;
 			color: #fff;
 			
 		}
